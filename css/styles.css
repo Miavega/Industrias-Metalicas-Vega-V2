@@ -1,0 +1,136 @@
+/*** NAVBAR CUSTOMS ***/
+
+/* LOGO */
+
+.logo-empresa {
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 150px;
+    background-position: center;
+}
+
+/* BACKGROUND */
+
+.navbar {
+    background-color: black;
+}
+
+/* COLOR ITEMS */
+
+.nav-item>a {
+    color: white !important;
+}
+
+.nav-item>a:hover, .nav-item>.active {
+    color: #E8AA32 !important;
+}
+
+/*** HEADER CUSTOMS ***/
+
+/* CAROUSEL */
+
+.carousel-size {
+    height: 100vh;
+}
+
+/*** ABOUT CUSTOMS ***/
+
+.card-about {
+    height: 70vh;
+    padding: 3px;
+    background: #061F20;
+    color: white;
+}
+
+.card-about .fa:hover, .card .fas:hover {
+    padding: 0 10px 0 10px;
+    color: white;
+    background: #1BBD9B;
+    border-radius: 8px;
+    transition: .4s;
+}
+
+/*** SWIPER CUSTOMS ***/
+
+.swiper-container {
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.img-proyect {
+    display: inline-block;
+    max-width: 100%;
+    height: 200px;
+    width: 400px;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.img-proyect:hover {
+    opacity: .7;
+    transition: .4s;
+}
+
+/*** CONTACT CUSTOMS ***/
+
+/* SOCIAL ICONS */
+
+#social-icons .btn-group {
+    margin-right: 15px;
+}
+
+#social-icons .btn-group:hover {
+    color: #E8AA32;
+    text-decoration: none;
+}
+
+/* CARD CONTACT */
+
+#card-contact {
+    background-color: rgba(192, 57, 43, .7);
+}
+
+/*** FOOTER ***/
+
+footer {
+    display: block;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+}
+
+/*** GENERAL ***/
+
+.division {
+    /*  divisores bajo titulo de sección */
+    width: 70px;
+    height: 3px;
+    background: #E8AA32;
+    margin: 0 auto;
+    /*margin-bottom: 50px;*/
+}
