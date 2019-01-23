@@ -28,3 +28,5 @@ lightbox.option({
     fitImagesInViewport: true,
 });
 
+//WOW 
+new WOW().init();
